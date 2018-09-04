@@ -1,0 +1,22 @@
+{
+  "name": "blood",
+  "version": "0.0.1",
+  "description": "bloodborne",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakura313/blood.git"
+  },
+  "keywords": [
+    "bloodborne"
+  ],
+  "author": "Paul Yakupoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakura313/blood/issues"
+  },
+  "homepage": "https://github.com/isakura313/blood#readme"
+}
