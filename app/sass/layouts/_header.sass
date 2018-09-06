@@ -1,0 +1,42 @@
+header
+    background-color: $color_red
+    height: 90px
+    nav
+        display: flex
+    ul
+        display: flex
+        flex: 70%
+        padding-top: 2vw
+        padding-left: 200px
+        li 
+            flex: 50%
+            list-style-type: none
+        li a 
+            color: #ffffff !important
+            text-decoration: none
+            @include large_text
+            font-size: 2vw
+            letter-spacing: 1.6px
+        li a:hover
+            color: $color_bright_red
+.nav_second
+    position: fixed
+    top: 10%
+    rigth: 0%
+    height: 75px
+    width: 70px
+    height: 150px
+    background: $color_red
+    padding-top: 30px
+    padding-left: 5px
+    border-radius: 0px 5px 5px 0px
+    ul li
+        list-style-type: none
+        padding-bottom: 10px
+        
+    ul li a 
+        color : #ffffff
+        text-decoration: none
+    ul li a:hover
+        color: $color_bright_red
+       
